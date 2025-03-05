@@ -1,0 +1,324 @@
+@font-face {
+  font-family: rejoy;
+  src: url(statics/fonts/SulphurPoint-Bold.ttf);
+}
+@font-face {
+  font-family: main-joy;
+  src: url(/statics/fonts/SulphurPoint-Regular.ttf);
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-family: rejoy;
+  box-sizing: border-box;
+  font-family: main-joy;
+}
+.navbar {
+  z-index: 50;
+}
+.loader {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  background-color: black;
+  z-index: 99;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.4rem;
+  font-weight: 800;
+  color: white;
+  font-family: rejoy;
+}
+
+.page1 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.page1 video {
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+}
+.page1-content {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.gsgdgbdfx {
+  margin-right: 18rem;
+  font-size: 0.8rem;
+}
+.nav-item a {
+  font-size: 0.8rem;
+}
+.nav-item:hover .nav-link {
+  color: rgb(233, 154, 7) !important;
+  transition: color 0.3s ease;
+}
+.fwg8ygfw {
+  color: white;
+  font-size: 22rem;
+  font-weight: 900;
+  transform: translateY(65%);
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+.fwgdfsf8ygfw {
+  color: white;
+  font-size: 22rem;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+.fwgdfsf8ygfw span {
+  display: inline-block;
+}
+.fwg8ygfw span {
+  display: inline-block;
+}
+.cursor {
+  width: 8rem;
+  height: 8rem;
+  background-color: orangered;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 6;
+  cursor: default;
+}
+.page2 {
+  width: 100%;
+  height: 100vh;
+  padding: 2rem;
+}
+.erhfgru {
+  margin-top: 5rem;
+  color: orangered;
+  font-size: 4rem;
+  text-decoration: none;
+
+
+  &&:hover{
+    transition: 0.6s ease-in;
+    text-decoration: underline;
+ } 
+}
+
+.fweybgyuwr {
+  font-size: 3.5rem;
+}
+.hdthdy {
+  border-bottom: 2px solid rgb(125, 119, 119);
+}
+.page3 {
+  min-height: 100vh;
+}
+.card {
+  position: relative; /* Allows stacking of child elements */
+}
+.asdfyyjfa {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all ease 0.8s;
+}
+
+.card-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.card:hover img {
+  opacity: 0;
+}
+marquee span svg {
+  margin-right: 3.5rem;
+  margin-top: 2rem;
+}
+.page4 {
+  height: 100vh;
+}
+.rgsegtrer {
+  border-top: 1px solid rgb(139, 129, 129);
+  border-bottom: 1px solid rgb(139, 129, 129);
+  padding: 0.8rem;
+}
+.page5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black; /* Optional background color for contrast */
+}
+
+.page5 video {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 9; /* Ensures the video covers the container without distortion */
+}
+
+.cursor2 {
+  width: 8rem;
+  height: 8rem;
+  background-color: blue;
+  border-radius: 50%;
+  position: absolute;
+  opacity: 0.6;
+}
+.cursor3 {
+  width: 8rem;
+  height: 8rem;
+  background-color: rgb(255, 0, 0);
+  border-radius: 50%;
+  position: absolute;
+}
+.rgertget {
+  max-width: 10rem;
+  max-height: 10rem;
+  border-radius: 50%;
+}
+.rgertget video {
+  object-fit: cover;
+}
+
+.footer-container {
+  height: 80vh;
+  width: 100%;
+
+  background-color: black; /* Example background color */
+}
+
+.footer-container footer p {
+  margin: 0;
+  font-size: small;
+  color: rgb(255, 255, 255); /* Example text color */
+}
+.footer-container ul li {
+  list-style: none;
+}
+.footer-container ul li:hover {
+  text-decoration: underline;
+  color: white;
+}
+.urgfuy8wga8hw {
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid gray;
+}
+.urgfuy8wga8hw h1 {
+  color: white;
+  display: inline-block;
+  font-size: 21rem;
+  font-weight: 900;
+  letter-spacing: -2rem;
+}
+.rthrtet {
+  border: 1px solid black;
+}
+
+/* Add this CSS to your style.css file */
+
+/* Default styles for larger screens */
+.col-4,
+.col-lg-3,
+.col-md-4,
+.col-sm-5 {
+  flex: 0 0 auto;
+  width: 33.333333%;
+}
+
+.col-8,
+.col-lg-4,
+.col-md-6,
+.col-sm-8 {
+  flex: 0 0 auto;
+  width: 66.666667%;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 50%;
+  }
+.erhfgru {
+font-size: 3rem;
+}
+.fweybgyuwr{
+  font-size: 3rem;
+  text-align: left;
+
+}
+.qdlhusdg{
+  width: 20rem;
+  height: 20rem;
+
+  background-color: orangered;
+
+}
+.fwg8ygfw{
+  color: white;
+  font-size: 16rem;
+  font-weight: 900;
+  transform: translateY(66vh);
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+}
+@media (max-width: 992px) {
+  .col-md-4 {
+    width: 33.333333%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .col-sm-5 {
+    width: 41.666667%;
+  }
+  .col-sm-8 {
+    width: 66.666667%;
+  }
+}
+
+@media (max-width: 576px) {
+  .col-4,
+  .col-lg-3,
+  .col-md-4,
+  .col-sm-5,
+  .col-8,
+  .col-lg-4,
+  .col-md-6,
+  .col-sm-8 {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .fwgdfsf8ygfw {
+    font-size: 6rem;
+  }
+}
+
+@media (max-width: 520px) {
+  .fwgdfsf8ygfw {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .fwgdfsf8ygfw {
+    font-size: 2.5rem;
+  }
+}
